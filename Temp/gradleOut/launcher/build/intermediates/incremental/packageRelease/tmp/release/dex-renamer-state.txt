@@ -1,0 +1,4 @@
+#Mon Aug 31 11:11:16 CEST 2020
+base.0=/Users/Jose/Desktop/Pong/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
