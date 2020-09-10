@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{735d65c0-a8ac-6432-5018-e942cb03a938}</ProjectGuid>
+    <ProjectGuid>{5589cf30-0b4a-b0cb-f60d-f2ff6031fbcb}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Tilemap.Editor</AssemblyName>
@@ -270,7 +270,7 @@
         <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>/Users/Jose/Desktop/Pong/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>/Users/Jose/Desktop/PongGit/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -633,20 +633,20 @@
         <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-        <HintPath>/Users/Jose/Desktop/Pong/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+        <HintPath>/Users/Jose/Desktop/PongGit/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-        <HintPath>/Users/Jose/Desktop/Pong/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+        <HintPath>/Users/Jose/Desktop/PongGit/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{a6ebdd3a-ec21-a62b-f2de-23b99c700159}</Project>
+      <Project>{5c528a0b-5612-e0fd-a0a7-ecaa56f5164b}</Project>
       <Name>UnityEditor.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{6e8ede25-697f-6ea7-e147-52906fef0620}</Project>
+      <Project>{dbb3aeb0-8702-c4b3-8bbd-1bb06df9b683}</Project>
       <Name>UnityEngine.UI</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
