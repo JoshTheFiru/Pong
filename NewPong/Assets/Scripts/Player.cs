@@ -10,7 +10,8 @@ public class Player : MonoBehaviour
     public KeyCode down; 
     // Start is called before the first frame update
 
-    float speed; 
+    float speed;
+    float finalSpeed;  
 
     void Start()
     {
@@ -22,11 +23,23 @@ public class Player : MonoBehaviour
     void Update()
     {
         if(Input.GetKey(up)){
-            transform.Translate(0, speed, 0);
+            if(transform.localPosition.y > 4){
+               finalSpeed = 0;  
+            }else{
+                finalSpeed = speed; 
+            }
+
+            transform.Translate(0, finalSpeed, 0);
         }
 
         if(Input.GetKey(down)){
-            transform.Translate(0, -speed, 0);
+            if(transform.localPosition.y < -4){
+               finalSpeed = 0;  
+            }else{
+                finalSpeed = speed; 
+            }
+            
+            transform.Translate(0, -finalSpeed, 0);
         }
         
     }
