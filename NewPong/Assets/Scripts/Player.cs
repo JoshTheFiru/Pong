@@ -13,9 +13,14 @@ public class Player : MonoBehaviour
     float speed;
     float finalSpeed;  
 
+    public AudioClip boingSound; 
+    AudioSource fuenteAudio; 
+
+
     void Start()
     {
         speed = 0.15f; 
+        fuenteAudio = GetComponent<AudioSource>();
         
     }
 
@@ -42,5 +47,10 @@ public class Player : MonoBehaviour
             transform.Translate(0, -finalSpeed, 0);
         }
         
+    }
+
+    void OnCollisionEnter(Collision objeto){
+        fuenteAudio.clip = boingSound; 
+        fuenteAudio.Play();
     }
 }
